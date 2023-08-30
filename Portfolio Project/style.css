@@ -1,0 +1,182 @@
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(41, 41, 70);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 20px;
+    background-color: rgb(7, 7, 44);
+    padding: 20px;
+    
+
+}
+.left {
+    font-size: larger;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+ nav ul li {
+   list-style: none;
+   margin: 0;
+   padding-left: 20px;  
+  
+ }
+ nav a{
+    color:white;
+    text-decoration: none;
+ }
+ nav a:hover{
+    background-color: bisque;
+ }
+ .firstsec{
+    display: flex;
+    margin: 70px 0;
+    justify-content: space-around;
+ }
+ .firstsec div {
+    width: 60%;
+ }
+ .intro {
+   text-align: center;
+   font-size: 30px;
+   padding: 100px 0;
+   background-image: url(images.jpg);
+   background-size: cover;
+
+}
+#introhead {
+   padding: 30px 0;
+   inline-size: none;
+    line-height: 40px;
+}
+ #user {
+   font-family: cursive;
+   font-size: 40px;
+}
+ h1{
+    padding: 20px;
+    color: black;
+    text-align: center;
+    background-color: pink;
+}
+.firstsec p{
+    margin: 16px;
+    font-size: 30px;
+    text-align: center;
+}
+ .secondsec {
+    text-align: center;
+    margin: 50px;
+    background-color: bisque;
+    color: black;
+    padding: 70px;
+    font-size: 20px;
+ }
+ .secondsec p{
+    padding: 30px;
+    line-height: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ .secondsec  h2{
+   font-size: 50px;
+
+ }
+
+ .thirdsec {
+    margin: 50px;
+    padding: 50px;
+    font-size: larger;
+ }
+ .thirdsec h2 {
+    text-align: center;
+    font: 3em ;
+ }
+ .thirdsec ul {
+    padding: 50px 40px 50px 40px;
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding-left: 20px;
+    justify-content: space-between;
+ }
+#skill li{
+   border:2px dashed white;
+   margin:80px 10px 10px 10px;
+   padding: 10px;
+}
+#certificate {
+    margin: 80px;
+    padding: 60px 30px 50px 30px;
+}
+#h {
+   text-align: center;
+   font-size: 60px;
+   border-bottom: inset;
+   font-style: oblique;
+}
+#certificate ul {
+    margin-top:70px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+#certificate ul a {
+    text-decoration: none;
+    color: white;
+}
+#certificate ul a:hover {
+    background-color: rgb(218, 240, 175);
+}
+
+#contact {
+   text-align: center;
+   margin: 30px;
+   background-color: bisque;
+   color: black;
+   font-size: 20px;
+   padding: 100px 100px 100px 100px;
+   display: flex;
+   justify-content: space-between;
+}
+#contact a {
+   display: flex;
+   justify-content: space-between;
+
+}
+#link a {
+   color: wwhite;
+   text-decoration: none;
+   font-size: medium;
+   line-height: 45px;
+}
+#link a:hover{
+   background-color: rgb(155, 149, 149);
+}
+#left {
+   padding-left: 15%;
+}
+
+#right {
+   padding-right:15%;
+   line-height: 45px;
+}
+footer {
+   text-align: center;
+   border: 5px;
+   background-color: rgb(27, 27, 58);
+   margin: 20px;
+   padding: 20px;
+}
+
